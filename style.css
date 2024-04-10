@@ -90,8 +90,8 @@ body {
 
 .tickets-inputs {
   background-image: linear-gradient(
-      rgba(250, 195, 16, 0.6),
-      rgba(250, 195, 16, 0.73)
+      rgba(250, 195, 16, 0.5),
+      rgba(250, 195, 16, 0.8)
     ),
     url("images/stuu.jpg");
   background-position: center;
@@ -104,16 +104,17 @@ body {
 }
 
 .signinfor {
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: bolder;
-  width: 65%;
+  width: 75%;
   height: 300px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: #333;
+  line-height: 55px;
+  text-shadow: 3px 4px #333;
 }
 
 .tickets {
